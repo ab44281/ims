@@ -208,6 +208,52 @@ body {
     @apply flex flex-col justify-between gap-8 px-6 py-8;
   }
 
+  /* Card css */
+  .card {
+    @apply bg-white shadow-md p-2 border border-gray-200 rounded-lg;
+  }
+
+  .card-title {
+    @apply text-xl font-semibold text-gray-900;
+  }
+
+  .card-subtext {
+    @apply text-sm text-gray-600;
+  }
+
+  .card-content {
+    @apply mt-4;
+  }
+
+  /* Table */
+  .table-container {
+    @apply border rounded-lg shadow-sm overflow-hidden;
+  }
+  
+  .table {
+    @apply w-full border-collapse;
+  }
+  
+  .table-header {
+    @apply bg-gray-100 dark:bg-gray-800;
+  }
+  
+  .table-header-cell {
+    @apply px-4 py-2 text-gray-700 dark:text-gray-300 font-medium text-left border-b;
+  }
+  
+  .table-row {
+    @apply hover:bg-gray-50 dark:hover:bg-gray-900;
+  }
+  
+  .table-cell {
+    @apply px-4 py-2 border-b;
+  }
+  
+  .table-empty {
+    @apply text-center py-3 text-gray-500;
+  }
+
   /* My Banks */
   .my-banks {
     @apply flex h-screen max-h-screen w-full flex-col gap-8 bg-gray-25 p-8 xl:py-12;

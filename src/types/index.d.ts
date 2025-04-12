@@ -157,6 +157,7 @@ declare interface HeaderBoxProps {
   title: string;
   subtext: string;
   user?: string;
+  children?:React.ReactNode
 }
 
 declare interface MobileNavProps {
